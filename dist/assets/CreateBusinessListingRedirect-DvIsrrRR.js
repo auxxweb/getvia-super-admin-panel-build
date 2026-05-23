@@ -1,0 +1,1 @@
+import{t as e}from"./react-vendor-DxVp2qlO.js";import{i as t,u as n}from"./router-BEkAS-bm.js";var r=e();function i(){let{businessId:e,stepId:i}=n();return(0,r.jsx)(t,{to:`/create-business/${e}/${i}`,replace:!0})}export{i as CreateBusinessListingRedirect};
