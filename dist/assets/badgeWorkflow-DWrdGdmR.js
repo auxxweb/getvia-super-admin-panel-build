@@ -1,0 +1,1 @@
+function e(e){return e===`VERIFIED`?`Verified`:`Featured`}function t(e){if(!e)return[];let t=[];return e.isFeatured||t.push(`FEATURED`),e.isVerified||t.push(`VERIFIED`),t}function n(e,t){return!e||!t?!1:t===`FEATURED`?!!e.isFeatured:t===`VERIFIED`?!!e.isVerified:!1}export{n,t as r,e as t};
